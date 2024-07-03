@@ -5,6 +5,24 @@
     padding: 10px;
     gap: 10px;
 }
+summary{
+    display: block;
+    cursor: pointer;
+}
+
+.div_price_filter{
+    display: flex;
+    justify-content: space-around;
+
+}
+.imput_search{
+    margin: 0;
+}
+
+.logo_filter_intro{
+    display: none;
+}
+
 
 .filter1{
 border: 2px solid rgb(0, 0, 0);
@@ -13,6 +31,7 @@ font-size: 16px;
 font-weight: 600;
 color: red;
 border-radius: 12px;
+width: 230px;
 }
 
 .filter2{

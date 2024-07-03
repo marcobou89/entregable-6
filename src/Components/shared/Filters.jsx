@@ -77,9 +77,8 @@ return (
 
         <div>
         <a className='logo_filter' onClick={handleClick} href="#"><img src=".\filtrar.png" alt="" /></a>
-          {
-            show? 
-            <>
+          
+           
             <details  className='filter1'>
             <summary>Price</summary>
             <form className='form_filter' onSubmit={handleSubmit}>
@@ -110,11 +109,8 @@ return (
             </details> 
           </div>
 
-          </>
-          :
-          null
+         
 
-          }
           
         </div>
 
