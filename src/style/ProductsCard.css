@@ -1,0 +1,52 @@
+
+
+.div_product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    padding:10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    gap: 10px;
+    /* box-shadow: 2px 2px 20px 1px;  */
+    overflow: hidden;   
+}
+
+.div_product:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid red;
+    box-shadow: 2px 2px 20px 1px;
+
+}
+
+.figure_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+}
+.div_buttons_card{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+hr{
+    width: 100%;
+    background-color: gray;
+}
+
+.button_card{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.img_product{
+    
+    height: 60%;
+}

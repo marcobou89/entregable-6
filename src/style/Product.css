@@ -1,0 +1,58 @@
+.div_principal{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1440px;
+}
+
+.similar{
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1440px;
+    min-width: 280px;
+    gap: 10px;
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    background: radial-gradient(circle closest-side,#ff0000 94%,#0000) right/calc(200% - 1em) 100%;
+    animation: l24 1s infinite alternate linear;
+  }
+  .loader::before {
+    content: "Loading...";
+    line-height: 1em;
+    color: #0000;
+    background: inherit;
+    background-image: radial-gradient(circle closest-side,#fff 94%,#000);
+    -webkit-background-clip:text;
+            background-clip:text;
+  }
+  
+  @keyframes l24{
+    100%{background-position: left}
+  }
+
+.loading{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.Title_similar{
+  text-align: center;
+  
+}
+

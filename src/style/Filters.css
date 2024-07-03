@@ -1,0 +1,89 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.filter1{
+border: 2px solid rgb(0, 0, 0);
+padding: 20px;
+font-size: 16px;
+font-weight: 600;
+color: red;
+border-radius: 12px;
+}
+
+.filter2{
+display: flex;
+padding: 20px;
+border: 2px solid rgb(0, 0, 0);
+font-size: 16px;
+font-weight: 600;
+color: red;
+border-radius: 12px;
+}
+.logo_filter{
+    display: none
+}
+.form_filter{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid rgb(160, 155, 155);
+    border-radius: 16px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+.div_label{
+    display: flex;
+    flex-direction: column
+}
+
+.label_filter{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.input_filter{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 16px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    
+}
+
+.button_filter{
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+
+    
+}
+
+.select_filter{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 16px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}

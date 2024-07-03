@@ -1,0 +1,43 @@
+.item{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    min-width: 280px;
+    height: 120px;
+    justify-content: space-around;
+    padding: 0 10px;
+    border: 2px solid black; 
+    
+}
+
+
+.itemCart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px; 
+}
+
+
+
+.div_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.button_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div_total{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

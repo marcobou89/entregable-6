@@ -1,0 +1,44 @@
+.login{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 20px;
+}
+.form_login{
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:rgba(0, 0, 0, 0.123);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.div_input_form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+    
+}
+
+.imput_form{
+    border-radius: 16px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.div_button_form{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
