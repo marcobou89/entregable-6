@@ -37,12 +37,7 @@ axios.get(url,bearerToken())
     setloading(false)    
 })
 .catch(err=>console.log(err))
-.finally(()=>{
-    setTimeout(() => {
-        setloading(false)
-    }, 1000);
 
-})
 
 }
 

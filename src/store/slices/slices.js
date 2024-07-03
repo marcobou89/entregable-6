@@ -20,16 +20,13 @@ export const{setProducts}=products.actions
 
 export const getProduct=(path,setloading)=>(dispatch)=>{
     const url=`${urlBase}/${path}`
+    console.log(typeof setloading);
     axios.get(url)
     .then(res=>{
         dispatch(setProducts(res.data))
         setloading(false)
 })
     .catch(err=>console.log(err))
-    .finally(()=>{
-        setTimeout(() => {
-            setloading(false)
-        }, 1000);
-    
-    })
+   
+       
 }

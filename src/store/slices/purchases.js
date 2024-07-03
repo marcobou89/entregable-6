@@ -31,11 +31,7 @@ export const getPurchaseTrunk=(setloading)=>(dispatch)=>{
 })
    
     .catch(err=>console.log(err))
-    .finally(()=>{
-        setTimeout(() => {
-            setloading(false)
-        }, 1000);
-    })
+    
         
     
 }
