@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { setProducts } from '../../store/slices/slices'
 import useFetch from '../../hook/useFetch'
 import { get, useForm } from 'react-hook-form'
-import "/Users/usuario/Desktop/REACT/entregable-6/src/style/Filters.css"
+import "../shared/Filters.css"
 
 
 const Filters = ({nameCategory,setNameCategory,setvalue}) => {

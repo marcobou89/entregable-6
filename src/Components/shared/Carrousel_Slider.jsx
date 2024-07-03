@@ -1,6 +1,6 @@
 import React from 'react'
 import 'swiper/css'
-import "/Users/usuario/Desktop/REACT/entregable-6/src/style/Carrousel_Slider.css"
+import "../shared/Carrousel_Slider.css"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Keyboard, Mousewheel, Navigation, Pagination} from 'swiper/modules'
 import 'swiper/css/navigation'

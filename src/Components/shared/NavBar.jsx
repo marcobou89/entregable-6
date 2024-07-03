@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "/Users/usuario/Desktop/REACT/entregable-6/src/style/NavBar.css"
+import "../shared/NavBar.css"
+
 
 const NavBar = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import "/Users/usuario/Desktop/REACT/entregable-6/src/style/ItemCard.css"
+import "../Cart/ItemCard.css"
 import { deleteProductTrunk, updateProductTrunk } from '../../store/slices/cartslices';
 
 

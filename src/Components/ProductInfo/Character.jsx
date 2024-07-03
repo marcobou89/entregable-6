@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { postProductsTrunk } from '../../store/slices/cartslices';
 import { useDispatch } from 'react-redux';
-import "/Users/usuario/Desktop/REACT/entregable-6/src/style/Character.css"
+import "../ProductInfo/Character.css"
 
 
 const Character = ({prod}) => {
